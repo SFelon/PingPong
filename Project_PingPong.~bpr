@@ -4,15 +4,15 @@
   <MACROS>
     <VERSION value="BCB.06.00"/>
     <PROJECT value="Project_PingPong.exe"/>
-    <OBJFILES value="Project_PingPong.obj Unit_PingPong.obj"/>
+    <OBJFILES value="Project_PingPong.obj ..\PingPong v1.0\Unit_PingPong.obj"/>
     <RESFILES value="Project_PingPong.res"/>
     <DEFFILE value=""/>
-    <RESDEPEN value="$(RESFILES) Unit_PingPong.dfm"/>
+    <RESDEPEN value="$(RESFILES) ..\PingPong v1.0\Unit_PingPong.dfm"/>
     <LIBFILES value=""/>
     <LIBRARIES value=""/>
     <SPARELIBS value="vcl.lib rtl.lib"/>
     <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi dclocx.bpi"/>
-    <PATHCPP value=".;"/>
+    <PATHCPP value=".;..\PingPong v1.0\img"/>
     <PATHPAS value=".;"/>
     <PATHRC value=".;"/>
     <PATHASM value=".;"/>
@@ -44,7 +44,7 @@
   <FILELIST>
       <FILE FILENAME="Project_PingPong.res" FORMNAME="" UNITNAME="Project_PingPong.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="Project_PingPong.cpp" FORMNAME="" UNITNAME="Project_PingPong" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="Unit_PingPong.cpp" FORMNAME="Form1" UNITNAME="Unit_PingPong" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\PingPong v1.0\Unit_PingPong.cpp" FORMNAME="Form1" UNITNAME="Unit_PingPong" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>
